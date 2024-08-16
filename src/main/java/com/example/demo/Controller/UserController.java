@@ -27,7 +27,7 @@ import com.example.demo.Service.UserService;
 import jakarta.transaction.Transactional;
 
 @RestController
-@CrossOrigin(origins = "https://skcetappstore.vercel.app")
+@CrossOrigin(origins = "http://localhost:3000/")
 public class UserController {
 	@Autowired
     UserService service;
